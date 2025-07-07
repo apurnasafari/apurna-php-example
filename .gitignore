@@ -1,0 +1,42 @@
+
+
+# Cache/Static
+/cache
+!/cache/static/.gitkeep
+!/cache/template/.gitkeep
+/interface/apache/static
+
+# Directories
+/data
+!/data/.gitkeep
+
+# Vendor
+/lib/vendor/smarty3
+/lib/vendor/apurna
+/lib/vendor/static/apurna
+
+# Local Files
+*settings_server.php
+*settings_environment.php
+
+# Large Files
+*.zip
+*.rar
+*.exe
+
+# Temp Files
+/tmp/*
+
+# Log Files
+/*.log
+/log/*
+
+
+# Development
+/.vscode
+!*.md
+*.swp
+.noseids
+*~
+~*
+
